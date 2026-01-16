@@ -6,9 +6,9 @@ Quick reference for sharing with your team.
 
 ## GitHub Repository
 
-**🔗 https://github.com/davidrider-now/saai-skill-feedback**
+**🔗 https://github.com/davidrider-now/skill-feedback**
 
-**Latest Release:** [v1.0.0](https://github.com/davidrider-now/saai-skill-feedback/releases/tag/v1.0.0)
+**Latest Release:** [v1.0.0](https://github.com/davidrider-now/skill-feedback/releases/tag/v1.0.0)
 
 ---
 
@@ -17,8 +17,8 @@ Quick reference for sharing with your team.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/davidrider-now/saai-skill-feedback.git
-cd saai-skill-feedback/mcp-server
+git clone https://github.com/davidrider-now/skill-feedback.git
+cd skill-feedback/mcp-server
 ```
 
 ### 2. Run Installer
@@ -87,7 +87,7 @@ Hi team,
 
 I've created a new Claude skill for submitting feedback about our MCP tools.
 
-🔗 GitHub: https://github.com/davidrider-now/saai-skill-feedback
+🔗 GitHub: https://github.com/davidrider-now/skill-feedback
 
 What it does:
 - Report bugs, request enhancements, or propose new skills
@@ -95,8 +95,8 @@ What it does:
 - Creates ServiceNow SBOs with full context
 
 Installation (5 minutes):
-1. Clone: git clone https://github.com/davidrider-now/saai-skill-feedback.git
-2. Install: cd saai-skill-feedback/mcp-server && ./install.sh
+1. Clone: git clone https://github.com/davidrider-now/skill-feedback.git
+2. Install: cd skill-feedback/mcp-server && ./install.sh
 3. Add config to Claude (shown by installer)
 4. Restart Claude
 
@@ -120,7 +120,7 @@ Questions? Let me know!
 
 Submit bugs and feature requests for Claude skills directly from conversations!
 
-📦 GitHub: https://github.com/davidrider-now/saai-skill-feedback
+📦 GitHub: https://github.com/davidrider-now/skill-feedback
 📥 Install: Clone → ./install.sh → Add to config → Restart
 
 ✨ Features:
@@ -148,7 +148,7 @@ The feedback system was removed from create-sbo-request and is now a separate sk
 - Feedback functionality moved to standalone skill
 
 **Action needed:**
-Install saai-skill-feedback if you want to provide feedback.
+Install skill-feedback if you want to provide feedback.
 
 **Benefit:**
 Now works with ANY skill, not just create-sbo-request!
@@ -183,7 +183,7 @@ Check the SBO in ServiceNow to verify details.
 - Slack: @david.rider
 
 **Bugs:** Use the feedback skill itself! (meta)
-- Or file GitHub issue: https://github.com/davidrider-now/saai-skill-feedback/issues
+- Or file GitHub issue: https://github.com/davidrider-now/skill-feedback/issues
 
 ---
 

@@ -11,8 +11,8 @@ Report bugs, request enhancements, or propose new skills - all tracked in Servic
 ### Install
 
 ```bash
-git clone https://github.com/ServiceNow/saai-skill-feedback.git
-cd saai-skill-feedback/mcp-server
+git clone https://github.com/ServiceNow/skill-feedback.git
+cd skill-feedback/mcp-server
 ./install.sh
 ```
 
@@ -114,9 +114,9 @@ Add to your Claude config file:
 ```json
 {
   "mcpServers": {
-    "saai-skill-feedback": {
+    "skill-feedback": {
       "command": "node",
-      "args": ["/absolute/path/to/saai-skill-feedback/mcp-server/index.js"]
+      "args": ["/absolute/path/to/skill-feedback/mcp-server/index.js"]
     }
   }
 }
@@ -126,9 +126,9 @@ Add to your Claude config file:
 ```json
 {
   "mcpServers": {
-    "saai-skill-feedback": {
+    "skill-feedback": {
       "command": "node",
-      "args": ["/absolute/path/to/saai-skill-feedback/mcp-server/index.js"]
+      "args": ["/absolute/path/to/skill-feedback/mcp-server/index.js"]
     }
   }
 }
@@ -278,7 +278,7 @@ See [docs/INSTALL.md](docs/INSTALL.md) for authentication details.
 
 ### Project Structure
 ```
-saai-skill-feedback/
+skill-feedback/
 ├── mcp-server/
 │   ├── index.js          # MCP server entry point
 │   ├── package.json      # Node dependencies
